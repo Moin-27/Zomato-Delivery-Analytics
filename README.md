@@ -149,6 +149,8 @@ Through this project, I learned:
 
 🔗 LinkedIn:
 [www.linkedin.com/in/moin-ahmed27/](http://www.linkedin.com/in/moin-ahmed27/)
+🔗 GitHub: https://github.com/Moin-27  
+🌐 Portfolio: https://moin-27.github.io/Portfolio/
 
 ---
 
