@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load Dataset
-df = pd.read_csv("../Dataset/Zomato Dataset.csv")
+df = pd.read_csv("Dataset/Zomato Dataset.csv")
 
 # Average Delivery Time by City
 avg_delivery = df.groupby("City")["Time_taken (min)"].mean()
