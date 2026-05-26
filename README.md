@@ -59,8 +59,6 @@ ZOMATO-DELIVERY-ANALYTICS
 │   ├── traffic-impact-analysis.png
 │   └── weather-impact-analysis.png
 │
-├── requirements.txt
-│
 └── README.md
 ```
 
