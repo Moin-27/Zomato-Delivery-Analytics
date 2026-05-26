@@ -1,29 +1,27 @@
 # Zomato Delivery Analytics Dashboard 🍔📊
 
-A data analytics project built using **Python, Pandas, and Matplotlib** to analyze delivery performance, traffic impact, weather conditions, vehicle usage, and order distribution in Zomato delivery operations.
+A data analytics project built using **Python, Pandas, and Matplotlib** to analyze Zomato delivery operations and visualize business insights through interactive charts and a custom dashboard.
 
 ---
 
 # 📌 Project Overview
 
-This project focuses on analyzing Zomato delivery data using Python for data processing and visualization.
+This project focuses on analyzing delivery data such as:
 
-The dashboard provides insights into:
-
-* Average delivery time by city
-* Traffic impact on delivery time
+* Delivery time by city
+* Traffic impact on deliveries
 * Weather impact analysis
-* Distribution of order types
-* Vehicle usage for deliveries
-* City-wise order distribution
+* Vehicle usage analysis
+* Order type distribution
+* City distribution analysis
 
-The project was created to practice:
+The goal of this project is to practice:
 
 * Data Analysis
 * Data Visualization
 * Dashboard Design
 * Python Libraries
-* Real-world Business Insights
+* Business Insight Generation
 
 ---
 
@@ -37,15 +35,16 @@ The project was created to practice:
 
 # 📂 Project Structure
 
-```text
+```text id="s8n2vr"
 ZOMATO-DELIVERY-ANALYTICS
 │
 ├── Dataset
 │   └── Zomato Dataset.csv
 │
 ├── Python Files
-│   ├── city_analysis.py
 │   ├── dashboard.py
+│   ├── delivery_time_by_city.py
+│   ├── city_distribution.py
 │   ├── order_analysis.py
 │   ├── traffic_analysis.py
 │   ├── vehicle_analysis.py
@@ -53,12 +52,14 @@ ZOMATO-DELIVERY-ANALYTICS
 │
 ├── Screenshots
 │   ├── dashboard_output.png
-│   ├── city-distribution.png
 │   ├── average-delivery-time-by-city.png
+│   ├── city-distribution.png
 │   ├── order-type-distribution.png
 │   ├── orders-by-vehicle-type.png
-│   ├── weather-impact-analysis.png
-│   └── average-traffic-impact.png
+│   ├── traffic-impact-analysis.png
+│   └── weather-impact-analysis.png
+│
+├── requirements.txt
 │
 └── README.md
 ```
@@ -67,29 +68,29 @@ ZOMATO-DELIVERY-ANALYTICS
 
 # 📊 Dashboard Features
 
-## 1. City Analysis
+## 1. Delivery Time by City
 
-Analyzes average delivery time across different city types.
+Analyzes average delivery time across different city categories.
 
 ## 2. Traffic Impact Analysis
 
-Shows how traffic density affects delivery time.
+Shows how traffic conditions affect delivery performance.
 
 ## 3. Weather Impact Analysis
 
-Analyzes delivery performance under different weather conditions.
+Analyzes delivery time under different weather conditions.
 
-## 4. Order Type Distribution
+## 4. Vehicle Usage Analysis
 
-Visualizes percentage distribution of different order categories.
+Displays the most commonly used delivery vehicles.
 
-## 5. Vehicle Analysis
+## 5. Order Type Distribution
 
-Shows which vehicle types are mostly used for deliveries.
+Visualizes distribution of different order categories.
 
 ## 6. City Distribution
 
-Displays order distribution across city categories.
+Shows order distribution across city types.
 
 ---
 
@@ -103,21 +104,17 @@ Displays order distribution across city categories.
 
 # 🚀 How to Run the Project
 
-## 1. Clone Repository
+## 1. Install Required Libraries
 
-```bash
-git clone <your-github-repo-link>
-```
-
-## 2. Install Required Libraries
-
-```bash
+```bash id="n4x8qa"
 pip install pandas matplotlib
 ```
 
-## 3. Run Dashboard
+---
 
-```bash
+## 2. Run Dashboard File
+
+```bash id="f7m2kp"
 python dashboard.py
 ```
 
@@ -125,11 +122,11 @@ python dashboard.py
 
 # 📈 Key Insights
 
-* Semi-Urban areas showed higher average delivery times.
-* Traffic jams significantly increased delivery duration.
-* Motorcycles were the most commonly used delivery vehicles.
-* Most orders were distributed across Metropolitan cities.
-* Weather conditions slightly affected overall delivery performance.
+* Traffic congestion increased delivery time significantly.
+* Metropolitan cities had the highest order distribution.
+* Motorcycles were the most used delivery vehicles.
+* Weather conditions slightly affected delivery efficiency.
+* Different order types showed balanced distribution.
 
 ---
 
@@ -137,20 +134,21 @@ python dashboard.py
 
 Through this project, I learned:
 
-* Data Cleaning using Pandas
-* Grouping and aggregation
-* Data Visualization using Matplotlib
+* Data cleaning using Pandas
+* GroupBy operations and aggregation
+* Data visualization using Matplotlib
 * Dashboard layout creation
-* Styling charts and plots
-* Extracting business insights from datasets
+* Dark-themed dashboard styling
+* Business insight extraction from datasets
 
 ---
 
 # 👨‍💻 Author
 
-Moin Ahmed
+**Moin Ahmed**
 
-LinkedIn: [www.linkedin.com/in/moin-ahmed27/](http://www.linkedin.com/in/moin-ahmed27/)
+🔗 LinkedIn:
+[www.linkedin.com/in/moin-ahmed27/](http://www.linkedin.com/in/moin-ahmed27/)
 
 ---
 
