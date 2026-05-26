@@ -56,7 +56,7 @@ ZOMATO-DELIVERY-ANALYTICS
 │   ├── city-distribution.png
 │   ├── order-type-distribution.png
 │   ├── orders-by-vehicle-type.png
-│   ├── traffic-impact-analysis.png
+│   ├── avrage-traffic-impact.png
 │   └── weather-impact-analysis.png
 │
 └── README.md
