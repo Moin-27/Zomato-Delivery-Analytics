@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 plt.style.use("dark_background")
 
 # Load Dataset
-df = pd.read_csv("../Dataset/Zomato Dataset.csv")
+df = pd.read_csv("Dataset/Zomato Dataset.csv")
 
 # Count Orders by Type
 order_data = df["Type_of_order"].value_counts()
