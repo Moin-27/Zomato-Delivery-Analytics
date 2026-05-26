@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load Dataset
-df = pd.read_csv("../Dataset/Zomato Dataset.csv")
+df = pd.read_csv("Dataset/Zomato Dataset.csv")
 
 # Count Orders by Vehicle Type
 vehicle_data = df["Type_of_vehicle"].value_counts()
