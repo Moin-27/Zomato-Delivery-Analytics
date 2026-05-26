@@ -147,11 +147,14 @@ Through this project, I learned:
 
 **Moin Ahmed**
 
-🔗 LinkedIn:
-[www.linkedin.com/in/moin-ahmed27/](http://www.linkedin.com/in/moin-ahmed27/)
-🔗 GitHub: https://github.com/Moin-27  
-🌐 Portfolio: https://moin-27.github.io/Portfolio/
+🔗 LinkedIn:  
+https://www.linkedin.com/in/moin-ahmed27/
 
+🔗 GitHub:  
+https://github.com/Moin-27
+
+🌐 Portfolio:  
+https://moin-27.github.io/Portfolio/
 ---
 
 # ⭐ If you liked this project
