@@ -4,7 +4,7 @@ A data analytics project built using **Python, Pandas, and Matplotlib** to analy
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 This project focuses on analyzing delivery data such as:
 
@@ -15,7 +15,7 @@ This project focuses on analyzing delivery data such as:
 * Order type distribution
 * City distribution analysis
 
-The goal of this project is to practice:
+The goal of this project is to explore:
 
 * Data Analysis
 * Data Visualization
@@ -25,18 +25,16 @@ The goal of this project is to practice:
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-* Python
-* Pandas
-* Matplotlib
+* Python (Pandas, Matplotlib)
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```text id="s8n2vr"
-ZOMATO-DELIVERY-ANALYTICS
+```text
+Zomato-Delivery-Analytics
 │
 ├── Dataset
 │   └── Zomato Dataset.csv
@@ -64,61 +62,63 @@ ZOMATO-DELIVERY-ANALYTICS
 
 ---
 
-# 📊 Dashboard Features
+## 📊 Dashboard Features
 
-## 1. Delivery Time by City
-
+### 1. Delivery Time by City
 Analyzes average delivery time across different city categories.
 
-## 2. Traffic Impact Analysis
-
+### 2. Traffic Impact Analysis
 Shows how traffic conditions affect delivery performance.
 
-## 3. Weather Impact Analysis
-
+### 3. Weather Impact Analysis
 Analyzes delivery time under different weather conditions.
 
-## 4. Vehicle Usage Analysis
-
+### 4. Vehicle Usage Analysis
 Displays the most commonly used delivery vehicles.
 
-## 5. Order Type Distribution
-
+### 5. Order Type Distribution
 Visualizes distribution of different order categories.
 
-## 6. City Distribution
-
+### 6. City Distribution
 Shows order distribution across city types.
 
 ---
 
-# 📷 Dashboard Preview
+## 📷 Dashboard Preview
 
-## Main Dashboard
-
+### 🏠 Main Dashboard
 ![Dashboard](Screenshots/dashboard_output.png)
+
+### 🚚 Delivery Time by City
+![Delivery Time](Screenshots/average-delivery-time-by-city.png)
+
+### 🚦 Traffic Impact Analysis
+![Traffic Analysis](Screenshots/avrage-traffic-impact.png)
+
+### 🌦️ Weather Impact Analysis
+![Weather Analysis](Screenshots/weather-impact-analysis.png)
 
 ---
 
-# 🚀 How to Run the Project
+## 🚀 How to Run the Project
 
-## 1. Install Required Libraries
+### 1. Install Required Libraries
 
-```bash id="n4x8qa"
+```bash
 pip install pandas matplotlib
 ```
 
 ---
 
-## 2. Run Dashboard File
+### 2. Run Dashboard File
 
-```bash id="f7m2kp"
+```bash
 python dashboard.py
 ```
 
 ---
 
-# 📈 Key Insights
+## 📈 Key Insights
 
 * Traffic congestion increased delivery time significantly.
 * Metropolitan cities had the highest order distribution.
@@ -128,7 +128,7 @@ python dashboard.py
 
 ---
 
-# 🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 Through this project, I learned:
 
@@ -141,15 +141,11 @@ Through this project, I learned:
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-**Moin Ahmed**
+**Moin Ahmed**  
 
-🔗 LinkedIn:  
-https://www.linkedin.com/in/moin-ahmed27/
-
-🔗 GitHub:  
-https://github.com/Moin-27
-
-🌐 Portfolio:  
-https://moin-27.github.io/Portfolio/
+* 🔗 **LinkedIn**: [linkedin.com/in/moin-ahmed27](https://www.linkedin.com/in/moin-ahmed27/)
+* 💻 **GitHub**: [github.com/Moin-27](https://github.com/Moin-27)
+* 📊 **Tableau Public**: [public.tableau.com/app/profile/moin.ahmed27](https://public.tableau.com/app/profile/moin.ahmed27)
+* 🌐 **Portfolio**: [moin-27.github.io/Portfolio](https://moin-27.github.io/Portfolio/)
